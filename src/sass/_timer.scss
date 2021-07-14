@@ -1,0 +1,66 @@
+.timer-container {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#date-selector {
+  height: 60px;
+  width: 275px;
+  margin-bottom: 35px;
+  text-align: center;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: black;
+  font-size: 32px;
+  font-weight: 500;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3);
+  text-shadow: grey 1px 1px;
+}
+
+.timer-container button {
+  height: 70px;
+  width: 300px;
+  font-size: 32px;
+  font-weight: 400;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: white;
+  background-color: blue;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5);
+  text-shadow: grey 1px 1px;
+}
+
+.timer {
+  padding-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 25px;
+}
+
+.value {
+  font-size: 85px;
+  font-weight: 500;
+  opacity: 0.8;
+  margin-bottom: 15px;
+  text-shadow: blue 1.5px 1.5px;
+}
+
+.label {
+  font-size: 40px;
+  font-weight: 400;
+  opacity: 0.5;
+  text-shadow: blue 1px 1px;
+}
