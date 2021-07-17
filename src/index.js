@@ -1,3 +1,4 @@
 import './sass/main.scss';
-import './js/theme.js';
+import './js/color-switcher';
 import './js/timer.js';
+import './js/promise.js';
