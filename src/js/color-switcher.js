@@ -17,7 +17,7 @@ function onBtnStartClick() {
 
   if (refs.btnStart) {
     refs.btnStart.removeEventListener('click', onBtnStartClick);
-    refs.btnStart.style.opacity = '0.5';
+    refs.btnStart.disabled = true;
   }
 }
 
@@ -25,6 +25,6 @@ refs.btnStop.addEventListener('click', () => {
   clearInterval(color);
   if (refs.btnStop) {
     refs.btnStart.addEventListener('click', onBtnStartClick);
-    refs.btnStart.style.opacity = '1';
+    refs.btnStart.disabled = false;
   }
 });
